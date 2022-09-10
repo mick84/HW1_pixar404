@@ -53,7 +53,8 @@ section > p:first-of-type {
   letter-spacing: 1px;
 }
 footer {
-  margin-top: 15rem;
+  margin-top: 28rem;
+  margin-bottom: 3rem;
 }
 .social-links {
   width: fit-content;
@@ -79,7 +80,8 @@ a {
   letter-spacing: 0.29rem;
 }
 .info-links a {
-  border-bottom: 1px solid #4b4b4b;
+  border-bottom: 1px solid #4b4b4b5b;
+  font-size: 15px;
 }
 .info-links h3 {
   font-size: smaller;
