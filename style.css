@@ -13,12 +13,20 @@
 
   src: url(./fonts/Futura/FuturaPTLight.otf) format("opentype");
 }
+@media only screen and (max-width: 1230px) {
+  header {
+    display: block !important;
+    margin: 1rem 9.4rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+header {
+  display: none;
+}
 main {
   margin: 15.4rem 8rem auto;
 }
